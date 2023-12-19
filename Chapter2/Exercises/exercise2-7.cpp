@@ -6,27 +6,22 @@
  *  примере выполнения:
  *
  *  Enter the number of hours: 9
- *  Enter the number of minutes: 28 
+ *  Enter the number of minutes: 28
  *  Time: 9:28
  *
-*/
-
+ */
 
 #include <iostream>
 using namespace std;
 
-void time(int h, int m)
-{
-    cout << "Time: " << h << ':' << m << '\n';
-}
+void time(int h, int m) { cout << "Time: " << h << ':' << m << '\n'; }
 
-int main()
-{
+int main() {
     int h, m;
     cout << "Enter the number of hours: ";
     cin >> h;
     cout << "Enter the number of minutes: ";
     cin >> m;
-    time(h,m);
+    time(h, m);
     return 0;
 }

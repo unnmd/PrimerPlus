@@ -5,17 +5,15 @@
  *
  */
 
-
 #include <iostream>
 
-int main()
-{
+int main() {
     using namespace std;
     int input;
     cout << "Укажите расстояние в фарлонгах: ";
     cin >> input;
-    cout << "Введенное расстояние в фарлонгах: " << input 
-        << ", равно " << input*220 << " ярд.\n";
+    cout << "Введенное расстояние в фарлонгах: " << input << ", равно "
+         << input * 220 << " ярд.\n";
 
     return 0;
 }

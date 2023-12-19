@@ -1,6 +1,6 @@
 /* 2023-12-01
  *
- * Напишите программу, в которой функция main() вызывает определяемую 
+ * Напишите программу, в которой функция main() вызывает определяемую
  * пользователем функцию, принимающую в качестве аргумента расстояние в световых
  * годах и возвращающую расстояние в астрономических единицах. Программа должна
  * выдать запрос на ввод значения в световых годах и отобразить следующий
@@ -16,23 +16,22 @@
  *
  *      1 световой год = 63 240 астрономических единиц
  *
-*/
-
+ */
 
 #include <iostream>
 
-double lightYearsToAstonomicalUnits(double lightYear)
-{
+double lightYearsToAstonomicalUnits(double lightYear) {
     double astronimicalUnits = lightYear * 63240;
     return astronimicalUnits;
 }
 
-int main()
-{
+int main() {
     using namespace std;
     double lightYear;
     cout << "Enter the light years: ";
     cin >> lightYear;
-    cout << lightYear << " light years = " << lightYearsToAstonomicalUnits(lightYear) << " astronomical units\n";
+    cout << lightYear
+         << " light years = " << lightYearsToAstonomicalUnits(lightYear)
+         << " astronomical units\n";
     return 0;
 }

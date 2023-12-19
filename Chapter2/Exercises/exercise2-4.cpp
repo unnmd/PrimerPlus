@@ -5,17 +5,15 @@
  * Enter your age: 29
  * Your age in months is 348
  *
-*/
-
+ */
 
 #include <iostream>
 
-int main()
-{
+int main() {
     using namespace std;
-    int age ;
+    int age;
     cout << "Enter your age: ";
     cin >> age;
-    cout <<  "Your age in months is " << age*12 << '\n';
+    cout << "Your age in months is " << age * 12 << '\n';
     return 0;
 }

@@ -5,12 +5,9 @@
  *
  */
 
-
 #include <iostream>
 
-int main()
-{
-
+int main() {
     using namespace std;
     cout << "Мое имя: Овчинников Виталий\n";
     cout << "Мой адрес: Россия, г. Таганрог, ул. Дзержинского д. 161\n";
