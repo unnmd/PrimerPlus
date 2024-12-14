@@ -1,4 +1,4 @@
-// limits.cpp -- некоторые оограничения целых чисел
+// limits.cpp -- некоторые ограничения целых чисел
 
 #include <climits>
 #include <iostream>

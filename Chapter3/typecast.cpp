@@ -1,4 +1,4 @@
-// typecast.cpp -- принудительное прилобразование типов
+// typecast.cpp -- принудительное преобразование типов
 #include <iostream>
 int main() {
     using namespace std;
